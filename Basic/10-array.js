@@ -67,7 +67,7 @@ myArray.pop()
 
 console.log(myArray)
 
-// shift y unshift
+// shift y unshift -- introduce al inicio y elimina al inicio
 
 console.log(myArray.shift())
 console.log(myArray)
@@ -85,7 +85,8 @@ myArray = []
 myArray.length = 0 // alternativa
 console.log(myArray)
 
-// slice
+// slice - Devuelve los valores de un array desde una posicion hasta otra posicion 
+// excluyendo la ultima
 
 myArray = ["Brais", "Moure", "mouredev", 37, true]
 
@@ -94,7 +95,8 @@ let myNewArray = myArray.slice(1, 3)
 console.log(myArray)
 console.log(myNewArray)
 
-// splice
+// splice  -- Elimina un set de elementos, si introduces dos argumentos tomara el primero como el inicio, el segundo como la cantidad de elementos a eliminar desde esa posicion.
+// Si se introduce un tercer argumento lo agregara a la posicion en la cual empezo a eliminar el contenido
 
 myArray.splice(1, 3)
 console.log(myArray)

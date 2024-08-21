@@ -12,7 +12,7 @@ let myMap = new Map()
 
 console.log(myMap)
 
-// Inicialiación
+// Inicialización
 
 myMap = new Map([
     ["name", "Brais"],
@@ -24,24 +24,24 @@ console.log(myMap)
 
 // Métodos y propiedades
 
-// set
+// set : Actualizar o agregar un elemento
 
 myMap.set("alias", "mouredev")
 myMap.set("name", "Brais Moure")
 
 console.log(myMap)
 
-// get
+// get: Recuperar o traer un valor, se debe pasar la llave.
 
 console.log(myMap.get("name"))
 console.log(myMap.get("surname"))
 
-// has
+// has: Permite validar si una llave existe y arroja false o true
 
 console.log(myMap.has("surname"))
 console.log(myMap.has("age"))
 
-// delete
+// delete:  Borra un registro al pasar la llave
 
 myMap.delete("email")
 
@@ -57,7 +57,7 @@ console.log(myMap.entries())
 
 console.log(myMap.size)
 
-// clear
+// clear: elimina todo el Map
 
 myMap.clear()
 

@@ -68,7 +68,7 @@ for (let valor of myString) {
     console.log(valor)
 }
 
-// break y continue
+// break y continue - Permite saltar o parar el bucle en casos especificos de condiciones
 
 for (let i = 0; i < 10; i++) {
     if (i == 5) {

@@ -25,7 +25,7 @@ function myFuncWithParams(name) {
 myFuncWithParams("Brais")
 myFuncWithParams("MoureDev")
 
-// Funciones anónimas
+// Funciones anónimas  => deben estar asignadas a una variable 
 
 const myFunc2 = function (name) {
     console.log(`¡Hola, ${name}!`)
