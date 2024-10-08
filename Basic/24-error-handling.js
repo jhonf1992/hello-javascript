@@ -12,7 +12,7 @@ let myObject
 
 // Captura de errores
 
-// try-catch
+// try-catch//
 
 try {
     // Código que intenta ejecutar

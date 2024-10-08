@@ -112,11 +112,11 @@ class GetSetPerson {
         this.#alias = alias
         this.#bank = bank
     }
-
+// La funcion get te permite obtener el dato 
     get name() {
         return this.#name
     }
-
+// la funcion set te permite establecer o modificar un dato
     set bank(bank) {
         this.#bank = bank
     }

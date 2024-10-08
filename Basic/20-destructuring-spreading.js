@@ -51,7 +51,7 @@ console.log(name)
 console.log(age)
 console.log(alias)
 
-// Sintaxis objects con valores predeterminados
+// // Sintaxis objects con valores predeterminados
 
 let { name2, age2, alias2, email = "email@email.com" } = person
 console.log(name2) // No existe
@@ -59,14 +59,14 @@ console.log(age2)  // No existe
 console.log(alias2)  // No existe
 console.log(email)
 
-// Sintaxis objects con nuevos nombres de variables
+// // Sintaxis objects con nuevos nombres de variables
 
 let { alias: alias3, name: name3, age: age3 } = person
 console.log(name3)
 console.log(age3)
 console.log(alias3)
 
-// Objects anidados
+// // Objects anidados
 
 let person3 = {
     name: "Brais",
@@ -89,34 +89,34 @@ let { name: name4, job: { name: jobName } } = person3
 console.log(name4)
 console.log(jobName)
 
-// Propagación (...)
+// // Propagación (...) - Spreading
 
-// Sintaxis arrays
+// // Sintaxis arrays
 
-let myArray2 = [...myArray, 5, 6]
+// let myArray2 = [...myArray, 5, 6]
 
-console.log(myArray2)
+// console.log(myArray2)
 
-// Copia de arrays
+// // Copia de arrays
 
-let myArray3 = [...myArray]
+// let myArray3 = [...myArray]
 
-console.log(myArray3)
+// console.log(myArray3)
 
-// Combinación de arrays
+// // Combinación de arrays
 
-let myArray4 = [...myArray, ...myArray2, ...myArray3]
+// let myArray4 = [...myArray, ...myArray2, ...myArray3]
 
-console.log(myArray4)
+// console.log(myArray4)
 
-// Sintaxis objects
+// // Sintaxis objects
 
-let person4 = { ...person, email: "braismoure@mouredev.com" }
+// let person4 = { ...person, email: "braismoure@mouredev.com" }
 
-console.log(person4)
+// console.log(person4)
 
-// Copia de objects
+// // Copia de objects
 
-let person5 = { ...person }
+// let person5 = { ...person }
 
-console.log(person5)
+// console.log(person5)

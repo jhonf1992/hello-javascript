@@ -36,8 +36,42 @@ console.log(myBooks);
 
 // 7. Crea un mapa que asocie el número del mes a su nombre
 
+let mapMonth = new Map([
+    [1, "Enero"],
+    [2, "Febrero"],
+    [3, "Marzo"],
+    [4, "Abril"],
+    [5, "Mayo"],
+    [6, "Junio"],
+    [7, "Julio"],
+    [8, "Agosto"],
+    [9, "Septiembre"],
+    [10, "Octubre"],
+    [11, "Noviembre"],
+    [12, "Diciembre"],
+    
+])
+console.log(mapMonth);
+
 // 8. Comprueba si el mes número 5 existe en el map e imprime su valor
 
+console.log(mapMonth.has(5));
+if (mapMonth.has(5)) {
+    console.log(mapMonth.get(5));
+} else {
+    console.log("Este elemento no existe")
+}
 // 9. Añade al mapa una clave con un array que almacene los meses de verano
 
+//let summerMonth = new Array();
+mapMonth.set("summerMonth", ["Diciembre", "Enero", "Febrero"])
+console.log(mapMonth);
+
 // 10. Crea un Array, transfórmalo a un Set y almacénalo en un Map
+
+let consolesVideogames = ["Super Nintendo", "PSP", "PS2", "PS1", "PS3", "Xbox", "Xbox360", "XboxOne", "PS4"]
+console.log(consolesVideogames);
+let setConsolesVidegames = new Set(consolesVideogames);
+console.log(setConsolesVidegames);
+let mapConsolesVideogames = new Map([["consolesVideogamesSet", setConsolesVidegames]]);
+console.log(mapConsolesVideogames);
